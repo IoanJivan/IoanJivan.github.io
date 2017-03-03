@@ -1,0 +1,59 @@
+body{
+	background-color: black;
+	color:white;
+	text-align:center;
+	display: none;
+	font-family:Supermercado One, serif;
+}
+
+h1{
+	background-color:rgba(119, 136, 153, 1);
+	border-radius:20px;
+	padding:10px;
+	width:90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#container {
+		padding-bottom:30px;
+		padding-top:10px;
+		margin-bottom:30px;
+		margin-left:20px;
+		margin-right:20px;
+		border-radius:20px;
+}
+
+
+#weather {
+	background-color:rgba(106, 116, 122, 0.3);
+	width: 80%;
+	margin:auto;
+	margin-top:5%;
+	border-radius:10px;
+}
+#temp {
+	background-color:rgba(106, 116, 122, 0.3);
+	width: 80%;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	border-radius:10px;
+}
+#windSpeed {
+	background-color:rgba(106, 116, 122, 0.3);
+	width: 80%;
+	margin:auto;
+	margin-bottom:5%;
+	border-radius:10px;
+}
+
+
+#city {
+	background-color:rgba(135, 206, 250, 0.6);
+	font-size:25px;
+	margin-bottom:30px;
+	margin-top:30px;
+	padding:10px;
+	border-radius:20px;
+}

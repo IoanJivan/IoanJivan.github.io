@@ -1,0 +1,1 @@
+Welcome to my page! My name is Ioan, I live in Bucharest, and I like tweaking html. Right now I'm a beginner, but you can expect this page to turn really cool. My tools are HTML/CSS, Javascript, Php and MySql.

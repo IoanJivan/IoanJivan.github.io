@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SomePage</title>
+	<script src="./thescript.js"></script>
+	<script src="https://use.fontawesome.com/1958b11069.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="container" style="text-align:center; height: 360px;">
+		<p id="displayQuote" style="width: 50%;  margin-left:100px; margin-top: 80px;">
+			<span style="text-align:right;">This website generates random quotes from fictional characters<br>Press the left button to generate a new quote<br>Then you can tweet it by pressing the right button</span>
+		</p>
+		<p id="displayAuthor" style="margin-top:25px;" ></p>
+		<img id="imageToReplace" class="img-responsive" src="http://tse4.mm.bing.net/th?id=OIP.Ma25969b2c2eb27e18614aca5d9b9e7c6o0&w=250&h=250" style="position: absolute; width: 300px; left: 65%; top: 7%;">
+	</div>
+	<button class="btn" onclick="newQuote()" style="background-color: rgba(153, 0, 0, 0.5); width: 70px; height: 70px; border-radius:50%; line-height: 40px; margin-left:15%; margin-top: 2%; position: absolute; padding: 10px; font-size: 15px;">
+		<span style="font-size:20px; color: white;">Next</span>
+	</button>
+	<a id="twitterShare" href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="quotes" data-show-count="false">
+	<button class="btn" style="background: rgba(255,255,255, 0.5); width: 70px; height: 70px; border-radius:50%; margin-right:15%; margin-top: 2%; float:right; padding: 10px; font-size: 15px; font-size:30px;">
+		<i class="fa fa-twitter"></i>
+	</button>
+	</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<body>
+<html>
