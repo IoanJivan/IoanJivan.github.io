@@ -47,13 +47,10 @@ h1{
   opacity:1;
 }
 
-#project3 {
-  opacity:0.5;
+#project3{
+	 opacity:0.5;
 }
 
-#project3 img{
-  width:250px;
-}
 #project3:hover{
   opacity:1;
 }
